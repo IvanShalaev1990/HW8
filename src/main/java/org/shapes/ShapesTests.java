@@ -7,6 +7,8 @@ public class ShapesTests {
         Rectangle rectangle = new Rectangle(1, 1, 10, 10);
         Circle circle = new Circle(1, 1, 10, 10);
         Point point = new Point(1, 1);
+        ShapeDrawer shapeDrawer = new ShapeDrawer(circle);
+        shapeDrawer.name();
         quad.name();
         System.out.println(quad.diagonalLength());
         System.out.println(quad.perimeter());

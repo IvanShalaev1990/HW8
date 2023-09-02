@@ -1,8 +1,11 @@
 package org.shapes;
 
 import java.util.Objects;
+
 /**
- * Quad class describes a two-dimensional figure right triangle
+ * {@inheritDoc}
+ * RightTriangle class describes a two-dimensional figure right triangle
+ *
  * @author Shalaiev Ivan
  * @version 1.0.0 30.08.2023
  */
@@ -115,11 +118,11 @@ public class RightTriangle extends Shape implements Perimeter, Aria {
     @Override
     public String toString() {
         return "RightTriangle" + "\n" +
-                "hypotenusesPointOneX " + hypotenusesPointOneX +"\n" +
-                ", hypotenusesPointOneY " + hypotenusesPointOneY +"\n" +
-                ", hypotenusesPointTwoX " + hypotenusesPointTwoX +"\n" +
-                ", hypotenusesPointTwoY " + hypotenusesPointTwoY +"\n" +
-                ", pointThreeX " + pointThreeX +"\n" +
+                "hypotenusesPointOneX " + hypotenusesPointOneX + "\n" +
+                ", hypotenusesPointOneY " + hypotenusesPointOneY + "\n" +
+                ", hypotenusesPointTwoX " + hypotenusesPointTwoX + "\n" +
+                ", hypotenusesPointTwoY " + hypotenusesPointTwoY + "\n" +
+                ", pointThreeX " + pointThreeX + "\n" +
                 ", pointThreeY " + pointThreeY;
     }
 }

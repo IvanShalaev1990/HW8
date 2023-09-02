@@ -5,6 +5,12 @@ public class ShapesTests {
         Quad quad = new Quad(1, 1, 10, 10);
         RightTriangle rightTriangle = new RightTriangle(10, 10, 1, 1);
         Rectangle rectangle = new Rectangle(1, 1, 10, 10);
+        Circle circle = new Circle(1, 1, 10, 10);
+        Point point = new Point(1, 1);
+        quad.name();
+        System.out.println(quad.diagonalLength());
+        System.out.println(quad.perimeter());
+        System.out.println(quad.aria());
         rightTriangle.name();
         System.out.println(rightTriangle.legTwoLength());
         System.out.println(rightTriangle.legOneLength());
@@ -17,5 +23,10 @@ public class ShapesTests {
         System.out.println(rectangle.diagonalLength());
         System.out.println(rectangle.perimeter());
         System.out.println(rectangle.aria());
+        circle.name();
+        System.out.println(circle.radius());
+        System.out.println(circle.perimeter());
+        System.out.println(circle.aria());
+        point.name();
     }
 }

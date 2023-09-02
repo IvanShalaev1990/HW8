@@ -1,8 +1,11 @@
 package org.shapes;
 
 import java.util.Objects;
+
 /**
- * Quad class describes a two-dimensional figure rectangle
+ * {@inheritDoc}
+ * Rectangle class describes a two-dimensional figure rectangle
+ *
  * @author Shalaiev Ivan
  * @version 1.0.0 30.08.2023
  */
@@ -116,12 +119,12 @@ public class Rectangle extends Shape implements Perimeter, Aria, DiagonalLength 
 
     @Override
     public String toString() {
-        return "Rectangle" +"\n" +
-                "pointOneX " + pointOneX +"\n" +
-                ", pointOneY " + pointOneY +"\n" +
-                ", pointTwoX " + pointTwoX +"\n" +
-                ", pointTwoY " + pointTwoY +"\n" +
-                ", pointThreeX " + pointThreeX +"\n" +
+        return "Rectangle" + "\n" +
+                "pointOneX " + pointOneX + "\n" +
+                ", pointOneY " + pointOneY + "\n" +
+                ", pointTwoX " + pointTwoX + "\n" +
+                ", pointTwoY " + pointTwoY + "\n" +
+                ", pointThreeX " + pointThreeX + "\n" +
                 ", pointThreeY " + pointThreeY;
     }
 }

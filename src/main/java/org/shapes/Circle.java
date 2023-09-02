@@ -1,8 +1,11 @@
 package org.shapes;
 
 import java.util.Objects;
+
 /**
- * Quad class describes a two-dimensional figure circle
+ * {@inheritDoc}
+ * Circle class describes a two-dimensional figure circle
+ *
  * @author Shalaiev Ivan
  * @version 1.0.0 30.08.2023
  */
@@ -91,10 +94,10 @@ public class Circle extends Shape implements Perimeter, Aria {
 
     @Override
     public String toString() {
-        return "Circle " +"\n" +
-                "centerX " + centerX +"\n" +
-                ", centerY " + centerY +"\n" +
-                ", boundaryX " + boundaryX +"\n" +
+        return "Circle " + "\n" +
+                "centerX " + centerX + "\n" +
+                ", centerY " + centerY + "\n" +
+                ", boundaryX " + boundaryX + "\n" +
                 ", bounderyY " + bounderyY;
     }
 }

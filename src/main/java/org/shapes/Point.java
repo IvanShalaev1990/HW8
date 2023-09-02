@@ -2,7 +2,13 @@ package org.shapes;
 
 import java.util.Objects;
 
-public class Point extends Shape{
+/**
+ * Point class describes a  figure point
+ *
+ * @author Shalaiev Ivan
+ * @version 1.0.0 30.08.2023
+ */
+public class Point extends Shape {
     private int pointX;
     private int pointY;
 
@@ -26,6 +32,7 @@ public class Point extends Shape{
     public void setPointY(int pointY) {
         this.pointY = pointY;
     }
+
     /**
      * Return class name
      */
